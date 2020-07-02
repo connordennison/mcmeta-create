@@ -4,7 +4,7 @@ from tkinter import *
 
 
 window = Tk()
-window.title("pack.mcmeta Creator v1.3")
+window.title("pack.mcmeta Creator v1.4")
 window.configure(bg="black")
 window.resizable(width=FALSE, height=FALSE)
 
@@ -37,7 +37,7 @@ versionHelpLabel1 = Label(window, text="1 for Minecraft 1.6 to 1.8", bg="black",
 versionHelpLabel2 = Label(window, text="2 for Minecraft 1.9 and 1.10", bg="black", fg="white", font=("none", 10)) .pack()
 versionHelpLabel3 = Label(window, text="3 for Minecraft 1.11 and 1.12", bg="black", fg="white", font=("none", 10)) .pack()
 versionHelpLabel4 = Label(window, text="4 for Minecraft 1.13 and 1.14", bg="black", fg="white", font=("none", 10)) .pack()
-versionHelpLabel4 = Label(window, text="5 for Minecraft 1.15", bg="black", fg="white", font=("none", 10)) .pack()
+versionHelpLabel4 = Label(window, text="5 for Minecraft 1.15 and 1.16", bg="black", fg="white", font=("none", 10)) .pack()
 nameLabel = Label(window, text="Please enter the name of the texture pack below.", bg="black", fg="white") .pack()
 nameEntry = Entry(window, bg="white", fg="black")
 nameEntry.pack()
