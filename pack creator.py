@@ -1,7 +1,13 @@
 from tkinter import *
+import ctypes
 
 # end of imports
 
+# try for hidpi
+
+try:
+    ctypes.windll.shcore.SetProcessDpiAwareness(True)
+except: pass
 
 window = Tk()
 window.title("pack.mcmeta Creator v1.4")
